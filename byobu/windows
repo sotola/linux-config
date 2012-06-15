@@ -1,0 +1,37 @@
+
+# Create screen 0 with the name orb
+screen -t orb 0 bash
+# Paste "goorb" followed by enter (\015) in the new screen
+stuff "goorb\015" 
+
+screen -t m1 1 bash 
+stuff "gom1\015" 
+
+screen -t m2 2 bash
+stuff "gom2\015" 
+
+screen -t m3 3 bash
+stuff "gom3\015" 
+
+#sleep 2
+#select 1
+#stuff "\0330M"
+#select 2
+#stuff "\0330M"
+#select 3
+#stuff "\0330M"
+
+screen -t Mod1.txt 4 bash
+stuff "gom1\015" 
+
+screen -t MPS.txt 5 bash
+stuff "gom1\015" 
+
+screen -t trunk 6 bash
+stuff "cd emergent_prime/cm\015" 
+screen -t CFM 7 bash
+stuff "cd emergent_prime/cm/IM/services/CFM\015" 
+screen -t MPS 8 bash
+stuff "cd emergent_prime/cm/IM/services/MPS\015" 
+screen -t OMS 9 bash
+stuff "cd emergent_prime/cm/IM/services/OMS\015" 
