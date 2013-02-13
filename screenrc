@@ -1,0 +1,5 @@
+caption string "%?%F%{= Bk}%? %C%A %D %d-%m-%Y %{= kB} %t%= %?%F%{= Bk}%:%{= wk}%? %n "
+hardstatus alwayslastline
+#hardstatus string '%{= kG}[%= %{= kw}%?%-Lw%?%{r}(%{W}%n*%f%t%?(%u)%?%{r})%{w}%?%+Lw%?%?%= %{g}][ %{G}%H %{g}][%{B} %d/%m %{W}%c %{g}]'
+hardstatus string '%{= kG}[%{= kw}%?%-Lw%?%{r}%{W}%n*%f%t%?(%u)%?%{r}%{w}%?%+Lw%?%?%= %{g}][ %{G}%H %{g}][%{B} %Y-%m-%d %{W}%c:%s %{g}]'
+
